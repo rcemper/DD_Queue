@@ -12,7 +12,7 @@
 
     zn "USER"
     zpm "install queuemonitoring"
-    do EnableDeepSee^%SYS.cspServer("/csp(user/")
+    do EnableDeepSee^%SYS.cspServer("/csp/user/")
     zpm "list"
  
     halt
